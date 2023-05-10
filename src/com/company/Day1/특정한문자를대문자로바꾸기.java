@@ -1,9 +1,9 @@
-package com.company;
+package com.company.Day1;
 
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
+class 특정한문자를대문자로바꾸기 {
     public static void main(String[] args) {
         String my_string = "programmers";
         String alp = "p";
@@ -26,7 +26,7 @@ class Solution {
             }
             str += temp;
         }
-
+        System.out.println(str);
         return str;
     }
 }
