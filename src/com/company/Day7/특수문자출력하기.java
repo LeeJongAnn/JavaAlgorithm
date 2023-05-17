@@ -1,4 +1,4 @@
-package com.company.Day8;
+package com.company.Day7;
 
 public class 특수문자출력하기{
 
