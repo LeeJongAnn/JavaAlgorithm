@@ -1,4 +1,4 @@
-package com.company.Day11;
+package com.company.Day12;
 
 public class 피자나눠먹기3 {
 
