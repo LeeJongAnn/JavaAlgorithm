@@ -1,6 +1,8 @@
 package com.company.Day24;
 
-import java.util.Stack;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class 배열회전시키기 {
     public static void main(String[] args) {
@@ -8,26 +10,17 @@ public class 배열회전시키기 {
         solution(array, "right");
     }
 
-    public static Stack<Integer> solution(int[] numbers, String direction) {
-        Stack<Integer> stack = new Stack<Integer>();
-        for(Integer list : numbers) {
-            stack.add(list);
-        }
-        String right = "right";
-        System.out.println(stack);
-        if(direction.equals(right)) {
-            stack.add(0, numbers[numbers.length-1]);
-            System.out.println(stack);
-            stack.pop();
-            System.out.println(stack);
-
+    public static int[] solution(int[] numbers, String direction) {
+        List<Integer> list = Arrays.stream(numbers).boxed().collect(Collectors.toList());
+        System.out.println(list);
+        if(direction.equals("right")){
+            list.add(0,list.get(list.size() - 1));
+            list.remove(list.size()-1);
         } else {
-            stack.add(numbers.length, numbers[0]);
-            stack.remove(0);
-            System.out.println(stack);
+            list.add(list.size(),list.get(0));
+            list.remove(0);
         }
-
-        return stack;
+        return list.stream().mapToInt(Integer::intValue).toArray();
     }
 }
 
