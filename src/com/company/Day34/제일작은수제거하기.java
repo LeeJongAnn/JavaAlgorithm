@@ -1,16 +1,13 @@
-package com.company.Day34;
-
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
 class 제일작은수제거하기 {
-
     public static void main(String[] args) {
         int array[] = { 4,3,2,1 };
         solution(array);
     }
+
     public static List<Integer> solution(int[] arr) {
         int asInt = Arrays.stream(arr).min().getAsInt();
         List<Integer> collect = Arrays.stream(arr).boxed().collect(Collectors.toList());
