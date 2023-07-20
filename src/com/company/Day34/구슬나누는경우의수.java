@@ -5,7 +5,7 @@ class 구슬나누는경우의수 {
     public static void main(String[] args) {
 
         int n = 4;
-        int[] arr = { 1, 2, 3, 4 };
+        int[] arr = {1, 2, 3, 4};
 
         boolean[] visitied = new boolean[n];
 
