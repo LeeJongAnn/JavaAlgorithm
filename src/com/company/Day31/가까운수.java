@@ -1,4 +1,4 @@
-package com.company.Day30;
+package com.company.Day31;
 
 import java.util.*;
 import java.util.stream.Collectors;

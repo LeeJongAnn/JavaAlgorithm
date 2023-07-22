@@ -1,4 +1,4 @@
-package com.company.Day34;
+package com.company.Day35;
 
 class 구슬나누는경우의수 {
 
