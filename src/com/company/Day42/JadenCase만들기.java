@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
 
 class JadenCase만들기 {
 
+
     public static void main(String[] args) {
 
         String s = "3people unFollowed me";
