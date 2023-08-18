@@ -1,12 +1,13 @@
+package com.company.Day41;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-class 팩토리얼 {
+class Solution2 {
 
     public static void main(String[] args) {
-        Solution so = new Solution();
+        Solution2 so = new Solution2();
 
         so.solution(24);
     }
