@@ -1,4 +1,4 @@
-# Even-earthworms-can-understand-Algorithms
+****# Even-earthworms-can-understand-Algorithms
 
 Data Structure &amp; Algorithms
 
@@ -60,9 +60,10 @@ Data Structure &amp; Algorithms
 > | [46.Day46 - 23년 8월 16일 수요일] | 등수매기기                                                     |
 > | [47.Day47 - 23년 8월 18일 금요일] | 소인수분해                                                     |
 > | [48.Day48 - 23년 8월 26일 금요일] | OX퀴즈                                                      |
+> | [50.Day50 - 23년 9월 03일 일요일]  | 직사각형 넓이 구하기                                                      |
 > | 2. Level1                   | 설명                                                        |                                                     
 > | [45.Day45 - 23년 8월 11일 금요일] | 같은 숫자는 싫어                                                 |
 > | [48.Day48 - 23년 8월 20일 일요일] | 이상한 문자 만들기                                                |
 > | [49.Day49 - 23년 8월 30일 일요일] | 예산                                               |
 > | 3. Level2                   | 설명                                                        |                                                   
-> | [44.Day44 - 23년 8월 9일 수요일]  | 최소값만들기                                                    |
+> | [44.Day44 - 23년 8월 9일 수요일]  | 최소값만들기                                                    |****
