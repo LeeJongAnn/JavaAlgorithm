@@ -4,7 +4,7 @@ import com.company.Day39.Solution;
 
 import java.util.Collections;
 import java.util.PriorityQueue;
-import ava.util.stream.Collectors;
+import java.util.stream.Collectors;
 
 class 최소값만들기 {
     public static void main(String[] args) {
