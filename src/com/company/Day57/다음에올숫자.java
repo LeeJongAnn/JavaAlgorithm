@@ -5,7 +5,7 @@ public class 다음에올숫자 {
     public static void main(String[] args) {
 
         int common[] = {1, 2, 4};
-        Solution sol = new Solution();
+        삼각형의완성조건 sol = new 삼각형의완성조건();
         sol.solution(common);
     }
 
