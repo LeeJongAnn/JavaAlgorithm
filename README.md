@@ -1,4 +1,4 @@
-****# Even-earthworms-can-understand-Algorithms
+# Even-earthworms-can-understand-Algorithms
 
 Data Structure &amp; Algorithms
 
@@ -68,6 +68,7 @@ Data Structure &amp; Algorithms
 > | [55.Day55 - 23년 9월 24일 일요일] | 다항식 더하기                                                   |
 > | [56.Day56 - 23년 9월 28일 목요일] | 종이 자르기                                                    |
 > | [57.Day56 - 23년 9월 28일 목요일] | 연속된 수의 합                                                  |
+> | [58.Day57 - 23년 9월 29일 금요일] | 다음에 올 숫자                                                  |
 > | 2. Level1                   | 설명                                                        |                                                     
 > | [45.Day45 - 23년 8월 11일 금요일] | 같은 숫자는 싫어                                                 |
 > | [48.Day48 - 23년 8월 20일 일요일] | 이상한 문자 만들기                                                |
