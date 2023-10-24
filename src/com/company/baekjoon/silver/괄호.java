@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-class Main {
+class 괄호 {
 	static String result = "";
 
 	static Stack<Integer> stack = new Stack<>();
