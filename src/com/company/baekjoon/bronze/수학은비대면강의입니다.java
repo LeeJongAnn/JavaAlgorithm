@@ -1,4 +1,4 @@
-package com.company.baekjoon.bronze.Day6;
+package com.company.baekjoon.bronze;
 
 import java.io.BufferedReader;
 import java.io.IOException;

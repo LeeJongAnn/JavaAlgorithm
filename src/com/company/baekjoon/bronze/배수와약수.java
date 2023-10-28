@@ -1,4 +1,4 @@
-package com.company.baekjoon.bronze.Day1;
+package com.company.baekjoon.bronze;
 
 
 
