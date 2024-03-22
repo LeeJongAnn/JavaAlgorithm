@@ -5,19 +5,19 @@ import java.util.*;
 
 public class Main {
 
-    static int arr[];
     static Integer dp[];
+    static int arr[];
+
     public static void main(String[] args) throws IOException {
 
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 
         int N = Integer.parseInt(bf.readLine());
-        arr = new int[N+1];
-        dp = new Integer[N+1];
-
+        dp = new Integer[N + 1];
+        arr = new int[N + 1];
 
         for (int i = 1; i <= N; i++) {
-            arr[i]= Integer.parseInt(bf.readLine());
+            arr[i] = Integer.parseInt(bf.readLine());
         }
         dp[0] = arr[0];
         dp[1] = arr[1];
@@ -28,15 +28,12 @@ public class Main {
         System.out.println(find(N));
     }
 
-    static int find(int i) {
+    static int find(int N) {
 
-        if (dp[i] == null) {
-            dp[i] = Math.max(find(i - 2), find(i - 3) + arr[i - 1]) + arr[i];
+        if (dp[N] == null) {
+            dp[N] = Math.max(find(N - 2), find(N - 3) + arr[N - 1]) + arr[N];
         }
-
-        return dp[i];
+        return dp[N];
     }
-
-
 
 }
