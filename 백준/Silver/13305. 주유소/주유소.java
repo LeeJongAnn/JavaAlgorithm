@@ -1,11 +1,10 @@
 
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.*;
 
 public class Main {
+
 
     public static void main(String[] args) throws IOException {
 
@@ -13,31 +12,29 @@ public class Main {
 
         int N = Integer.parseInt(bf.readLine());
 
-        int dist[] = new int[N - 1];
-        int cost[] = new int[N];
+        long[] dist = new long[N - 1];
+        long[] cost = new long[N];
 
-        StringTokenizer st = new StringTokenizer(bf.readLine()," ");
-
-        for (int i = 0; i < N-1; i++) {
+        StringTokenizer st = new StringTokenizer(bf.readLine(), " ");
+        for (int i = 0; i < N - 1; i++) {
             dist[i] = Integer.parseInt(st.nextToken());
         }
-        st = new StringTokenizer(bf.readLine()," ");
+
+        st = new StringTokenizer(bf.readLine(), " ");
+
         for (int i = 0; i < N; i++) {
             cost[i] = Integer.parseInt(st.nextToken());
         }
- 
-
-        int minCost = cost[0];
-        int sum = 0;
-        for (int i = 0; i < N-1; i++) {
+        long minCost = cost[0];
+        long result = 0;
+        for (int i = 0; i < N - 1; i++) {
 
             if (minCost > cost[i]) {
                 minCost = cost[i];
             }
-            sum += minCost * dist[i];
 
+            result += minCost * dist[i];
         }
-        System.out.println(sum);
+        System.out.println(result);
     }
-
 }
